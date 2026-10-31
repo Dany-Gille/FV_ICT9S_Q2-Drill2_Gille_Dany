@@ -4,19 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q2 Drill 2</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <style>
-    h2 {
-        padding: 10px;
-        color:blue;
-    }
     h1 {
-        text-align-center;
+        text-align: center;
         padding: 50px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 20px;
+        letter-spacing: 3px;
     } img {
         width: 250px;
         height: 220px;
+        border-radius: 15px;
+    } #foot {
+         background: #32a8d7;
+            background: linear-gradient(90deg,rgb(40, 40, 163) 0%, rgb(0, 44, 163) 50%, rgb(33, 82, 240) 100%);
+            color: #f2efef;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+    } button {
+        margin-top: 20px;
+    } body{
+        background:rgb(159, 199, 248);
     }
 </style>
 <body>
@@ -46,67 +60,88 @@
   </div>
 </nav>
 
-<div class="container-fluid m-0 p-0">
+<div class="container-fluid m-0">
 
-    <div class="container">
-
-        <div class="row">
-            <h1></h1>
-    <div class="container-fluid">
         <div class="row text-center">
-            <h1 class="text-center text-dark fw-bold">OBMC</h1>
-        </div>  <div class="container-fluid m-0 p-0">
-    <div class="row">
-        <div class="col">
-            <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/9804865a-f6de-47d0-b463-c569491b9621/OBMC+MONTESSORI+FV+1+-+AY+2026+FA.jpg" alt="anime_header" class="img-fluid w-100 d-block">
+            <h1 class="text-center text-dark fw-bold">OPERATION BROTHERHOOD MONTESSORI CENTER</h1>
+            </div> 
+
+            <div class="w-100 mb-4">
+            <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/9804865a-f6de-47d0-b463-c569491b9621/OBMC+MONTESSORI+FV+1+-+AY+2026+FA.jpg" alt="obmc_header" class="img-fluid w-100 d-block">
         </div>
     </div>
 </div>
-
+<div class="container text-center">
 <pre>
 At <span style="color:rgb(0, 153, 255);">Operation Brotherhood Montessori Center</span>, each child is nurtured in the holistic method of Dr. Maria Montessori.
 
 Welcome to the O.B. Montessori Center in the Philippines! 
-    
+
 We are a forward-thinking pre-kindergarten through grade 12 co-educational institution, providing a strong alternative to international schools.
+
 At OBMC, we combine time-tested traditions with modern innovations to equip students for real-world success. 
 
 Our mission is to guide learners into self-reliant, capable individuals who can lead, adapt, and make a positive impact in a rapidly changing world. 
+
 Discover our academic programs and experience the dynamic community that makes OBMC a special place for a child to learn and thrive.
-
 </pre>
+</div>
 
-        <br>
-        <div class="col text-center">
-          <br><br>
-
-          <div class="row gap-3">
-            <div class="col bg-light text-dark">CAMPUSES<div class="row gap-3 text-center">
+<br>
+<div class="container text-center">
+    <h2 class="text-dark fw-bold">Campuses</h2>
+    <br><br>
+</div>
+        <div class="container-fluid">
+         <div class="row g-3 row-cols-5 justify-content-center text-center">
             
-            <div class="col bg-warning">
+            <div class="col">
+            <div class="bg-warning h-100 rounded-4">
             <div class="fw-bold">Fairview</div>
-            <br><br>
             <img src="https://obmontessori.orangeapps.ph/landing/obmontessori/images/FV%20Facade.jpg">
-            <div>Our Fairview Campus in Quezon City gives quality education to its thriving community of young families.</div>
-            <br>
+            <div class="mt-3">Our Fairview Campus in Quezon City gives quality education to its thriving community of young families.</div>
             </div>
+            <button type="button" class="btn btn-info rounded-5 mb-5">Inquire Now</button>
+        </div>
 
             <div class="col">
-            <div class="col bg-primary">
+            <div class="bg-primary h-100 rounded-4">
             <div class="fw-bold">Greenhills</div>
-            <br><br>
-            <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/affba656-d015-4b96-a8ba-3ef5bbbc2c39/OBMC+MONTESSORI+GH+-+AY+2026+FA.jpg">
-            <div>Our Greenhills Campus in San Juan City offers its students a creative and environment to influence their imagination, love of learning, and service to the community.</div>
-        
-            <div class="col">
-            <div class="col bg-danger">
-            <div class="fw-bold">Sta. Ana</div>
-            <br><br>
-            <img src="https://obmontessori.orangeapps.ph/landing/obmontessori/images/Las%20Pinas%20Facade.jpg">
-            <div>Our Sta. Ana Campus is known for its strong academic programs, community involvement, and love for culture and heritage.</div>
+            <img src="https://obmontessori.orangeapps.ph/landing/obmontessori/images/Greenhills%20Facade.jpg">
+            <div class="mt-3">Our Greenhills Campus in San Juan City offers its students a creative and environment to influence their imagination, love of learning, and service to the community.</div>
             </div>
-     <footer>
-            <p id="foot"> 2026 My Favorite Playlist | Created by [Dany Gille 9-Sapphire</p>
-        </footer>
+            <button type="button" class="btn btn-danger rounded-5 mb-5">Inquire Now</button>
+        </div>
+            <div class="col">
+            <div class="bg-danger h-100 rounded-4">
+            <div class="fw-bold">Sta. Ana</div>
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/O.B._Montessori_Center%2C_Sta._Ana%2C_Manila%2C_June_2023.jpg/1280px-O.B._Montessori_Center%2C_Sta._Ana%2C_Manila%2C_June_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail">
+            <div class="mt-3">Our Sta. Ana Campus is known for its strong academic programs, community involvement, and love for culture and heritage.</div>
+            </div>
+            <button type="button" class="btn btn-success rounded-5 mb-5">Inquire Now</button>
+        </div>
+
+            <div class="col">
+            <div class="bg-info h-100 rounded-4">
+            <div class="fw-bold">Angeles</div>
+            <img src="https://obmontessori.orangeapps.ph/landing/obmontessori/images/Angeles%20Facade.jpg">
+            <div class="mt-3">Our Angeles Campus, located in the vibrant province Pampanga, provides a nurturing dynamic Montessori environment for students to thrive personally and academically.</div>
+            </div>
+            <button type="button" class="btn btn-warning rounded-5 mb-5">Inquire Now</button>
+        </div>
+        
+        <div class="col">
+            <div class="bg-success h-100 rounded-4">
+            <div class="fw-bold">Las Piñas</div>
+            <img src="https://findschools.ph/wp-content/uploads/2026/03/Las-Pinas-Facade-1-1-848x566.jpg">
+            <div class="mt-3">Our Las Piñas Campus pays respect to it's cultural history, the birthplace of the Sarao Jeepney.Its welcoming atmosphere promotes development on students.</div>
+            </div>
+            <button type="button" class="btn btn-primary rounded-5 mb-5">Inquire Now</button>
+        </div>
+    </div>
+    <br><br>
+     <footer class="text-center">
+            <p id="foot">© 2026 Dany Gille. All rights reserved.</p>
+            </footer>
 </body>
 </html>
